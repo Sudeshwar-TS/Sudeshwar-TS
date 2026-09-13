@@ -3,14 +3,14 @@
 **B.Tech Artificial Intelligence & Data Science (AI&DS)**  
 **AI / ML · NLP · Generative AI · Data Science & Analytics**
 
-I am an AI&DS student interested in developing practical solutions using machine learning, natural language processing, Generative AI and data science. My projects include RAG assistants, emotion-aware conversation, demand prediction and maintenance analytics.
+I'm a final-year B.Tech Artificial Intelligence & Data Science student. I enjoy working with data and building applications that use machine learning, NLP and language models. My projects cover document search, emotion detection, sales prediction and equipment maintenance.
 
 ## About Me
 
-- **AI & NLP:** Building applications with pretrained language models, emotion classification, semantic retrieval and LLM integration.
-- **Machine Learning & Analytics:** Working with data preprocessing, feature engineering, regression, classification and interactive dashboards.
-- **Applied projects:** Exploring AI and data solutions for telecom support, retail, manufacturing, financial documents and event planning.
-- **Career interests:** Fresher and campus-placement opportunities in AI/ML engineering, NLP, Generative AI, data science and data analytics.
+- I work with data cleaning, feature engineering, regression and classification in my ML projects.
+- I use pretrained models and RAG to build chatbots and answer questions from documents.
+- I build dashboards to explore data and present predictions clearly.
+- I'm looking for entry-level opportunities in AI/ML, NLP, Generative AI, data science and data analytics.
 
 ## Tech Stack
 
@@ -29,7 +29,7 @@ I am an AI&DS student interested in developing practical solutions using machine
 
 ### TeleCom Insight AI · RAG customer support
 
-A telecom support assistant that retrieves context from FAQ records, SQLite support tickets and PDF guides. Combines three ChromaDB collections with a LangChain pipeline to generate context-based answers through Groq.
+A chatbot for telecom support questions. It searches FAQ records, resolved tickets in SQLite and PDF guides using Sentence Transformers and ChromaDB, then passes the retrieved text to an LLM through LangChain and Groq.
 
 **Tech:** Python | LangChain | ChromaDB | Sentence Transformers | Groq | Streamlit
 
@@ -37,7 +37,7 @@ A telecom support assistant that retrieves context from FAQ records, SQLite supp
 
 ### Emotion-Aware Chatbot · NLP and conversational AI
 
-A conversational AI application that classifies text emotions with a pretrained DistilRoBERTa model and adapts LLM response styles through OpenRouter. Includes a React chat interface, emotion history and keyword-based fallback detection.
+A chatbot that uses a pretrained DistilRoBERTa model to detect emotions in text. The detected emotion guides the response prompt sent through OpenRouter. It includes a React chat interface, emotion history and a keyword-based fallback.
 
 **Tech:** Python | Hugging Face Transformers | PyTorch | Flask | React | OpenRouter
 
@@ -45,23 +45,23 @@ A conversational AI application that classifies text emotions with a pretrained 
 
 ### Sales Demand Forecasting · Retail analytics
 
-A retail demand prediction application with data cleaning, feature engineering and preprocessing pipelines. Includes model comparison across Linear Regression, Random Forest and XGBoost, alongside interactive sales analysis and inventory recommendations.
+An app for estimating units sold from retail data. The training code includes data cleaning, feature engineering and comparison of Linear Regression, Random Forest and XGBoost. A Streamlit dashboard shows sales charts and offers inventory suggestions based on fixed demand thresholds.
 
 **Tech:** Python | scikit-learn | XGBoost | pandas | Streamlit | Plotly
 
 [View Repository](https://github.com/Sudeshwar-TS/Sales_Demand_Forecasting)
 
-### AI Predictive CMMS · Maintenance intelligence
+### AI Predictive CMMS · Predictive maintenance
 
-A maintenance dashboard combining sensor trends, asset records, maintenance history and work orders. Uses a Random Forest classifier to estimate maintenance needs from equipment readings, with Supabase-backed data and an AI assistant.
+A dashboard for viewing equipment readings, maintenance history and work orders stored in Supabase. It includes a Random Forest model for predicting maintenance needs and an LLM assistant that answers questions using the equipment data.
 
 **Tech:** Python | scikit-learn | pandas | Streamlit | Plotly | Supabase
 
 [View Repository](https://github.com/Sudeshwar-TS/Enterprise-AI-Predictive-CMMS)
 
-### FinSight AI · Financial document intelligence
+### FinSight AI · Financial document analysis
 
-A RAG workflow for analysing financial results, investor presentations and earnings transcripts. Retrieves company-specific document context, generates financial summaries and produces Excel reports with visualisations.
+A document analysis project for financial results, investor presentations and earnings transcripts. It retrieves text for a selected company, uses an LLM to summarise it, and includes code to create charts and Excel reports.
 
 **Tech:** Python | LangChain | ChromaDB | Sentence Transformers | Groq | OpenPyXL
 
@@ -69,7 +69,7 @@ A RAG workflow for analysing financial results, investor presentations and earni
 
 ### Sustainova · ML-assisted event planning
 
-An event planning application with an XGBoost attendance prediction pipeline and estimates for food, parking and rooms. Integrates these predictions with guest RSVP, QR check-in and organizer workflows.
+An event planning app with an XGBoost model for estimating attendance. It uses rules to calculate food, parking and room requirements from those estimates. Guest RSVP, QR check-in and organizer screens connect the predictions to event planning.
 
 **Tech:** Python | FastAPI | Next.js | TypeScript | XGBoost | PostgreSQL / Supabase
 
