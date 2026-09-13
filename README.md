@@ -35,8 +35,7 @@ I enjoy working through the steps between a dataset and a useful application: cl
 <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-172B4D?style=for-the-badge&amp;logo=scikitlearn&amp;logoColor=67E8F9">
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-172B4D?style=for-the-badge&amp;logo=pytorch&amp;logoColor=67E8F9">
 <img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-172B4D?style=for-the-badge">
-<img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-172B4D?style=for-the-badge">
-<img alt="sai" src="https://img.shields.io/badge/Random%20Forest-172B4D?style=for-the-badge"></p>
+<img alt="Random Forest" src="https://img.shields.io/badge/Random%20Forest-172B4D?style=for-the-badge"></p>
 
 <p><strong>02 &nbsp; / &nbsp; NLP / GenAI / RAG</strong></p>
 <p><img alt="Transformers" src="https://img.shields.io/badge/Transformers-172B4D?style=for-the-badge&amp;logo=huggingface&amp;logoColor=67E8F9">
