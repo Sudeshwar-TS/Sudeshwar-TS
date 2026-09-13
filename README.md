@@ -43,6 +43,14 @@ A chatbot that uses a pretrained DistilRoBERTa model to detect emotions in text.
 
 [View Repository](https://github.com/Sudeshwar-TS/Emotion-Aware-Chatbot)
 
+### MedSignal AI · Pharmacovigilance prototype
+
+A prototype for exploring drug-safety signals in simulated posts from multiple source categories. It uses TextBlob for sentiment analysis, keyword matching to identify drug and symptom mentions, and rules to assign risk scores with explanations. A dashboard lets users filter posts and inspect flagged signals.
+
+**Tech:** Python | TextBlob | FastAPI | SQLAlchemy | SQLite | Next.js | Recharts
+
+[View Repository](https://github.com/Sudeshwar-TS/MedSignal-AI)
+
 ### Sales Demand Forecasting · Retail analytics
 
 An app for estimating units sold from retail data. The training code includes data cleaning, feature engineering and comparison of Linear Regression, Random Forest and XGBoost. A Streamlit dashboard shows sales charts and offers inventory suggestions based on fixed demand thresholds.
