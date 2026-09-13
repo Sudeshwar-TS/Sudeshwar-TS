@@ -77,8 +77,6 @@ OpenRouter · Hugging Face Diffusers · Matplotlib · SQL · JavaScript · TypeS
 
 ## Featured Projects
 
-**FLAGSHIP PROJECTS**
-
 ![01 / RAG + LLM](https://img.shields.io/badge/01%20%2F%20RAG%20%2B%20LLM-373067?style=flat-square)
 
 ### [TeleCom Insight AI](https://github.com/Sudeshwar-TS/TeleCom-Insight-AI)
@@ -113,13 +111,11 @@ A RAG project for answering questions about company financial documents. It retr
 
 [**VIEW PROJECT ↗**](https://github.com/Sudeshwar-TS/FinSight-AI)
 
-<br>
+---
 
-### Other Selected AI & Data Projects
+![04 / PREDICTIVE ML](https://img.shields.io/badge/04%20%2F%20PREDICTIVE%20ML-373067?style=flat-square)
 
-![PREDICTIVE ML](https://img.shields.io/badge/PREDICTIVE%20ML-373067?style=flat-square)
-
-#### [Sales Demand Forecasting](https://github.com/Sudeshwar-TS/Sales_Demand_Forecasting)
+### [Sales Demand Forecasting](https://github.com/Sudeshwar-TS/Sales_Demand_Forecasting)
 
 A retail sales prediction app with preprocessing, feature engineering and training code that compares Linear Regression, Random Forest and XGBoost. Its dashboard shows sales charts and inventory suggestions based on fixed demand thresholds.
 
@@ -127,11 +123,11 @@ A retail sales prediction app with preprocessing, feature engineering and traini
 
 [**VIEW PROJECT ↗**](https://github.com/Sudeshwar-TS/Sales_Demand_Forecasting)
 
-<br>
+---
 
-![PREDICTIVE MAINTENANCE](https://img.shields.io/badge/PREDICTIVE%20MAINTENANCE-373067?style=flat-square)
+![05 / PREDICTIVE MAINTENANCE](https://img.shields.io/badge/05%20%2F%20PREDICTIVE%20MAINTENANCE-373067?style=flat-square)
 
-#### [AI Predictive CMMS](https://github.com/Sudeshwar-TS/Enterprise-AI-Predictive-CMMS)
+### [AI Predictive CMMS](https://github.com/Sudeshwar-TS/Enterprise-AI-Predictive-CMMS)
 
 A maintenance dashboard with sensor trends, equipment records and work orders stored in Supabase. It includes a Random Forest maintenance classifier and an LLM assistant that uses equipment data to answer questions.
 
@@ -139,11 +135,11 @@ A maintenance dashboard with sensor trends, equipment records and work orders st
 
 [**VIEW PROJECT ↗**](https://github.com/Sudeshwar-TS/Enterprise-AI-Predictive-CMMS)
 
-<br>
+---
 
-![PHARMACOVIGILANCE PROTOTYPE](https://img.shields.io/badge/PHARMACOVIGILANCE%20PROTOTYPE-373067?style=flat-square)
+![06 / PHARMACOVIGILANCE PROTOTYPE](https://img.shields.io/badge/06%20%2F%20PHARMACOVIGILANCE%20PROTOTYPE-373067?style=flat-square)
 
-#### [MedSignal AI](https://github.com/Sudeshwar-TS/MedSignal-AI)
+### [MedSignal AI](https://github.com/Sudeshwar-TS/MedSignal-AI)
 
 A drug-safety signal prototype using simulated posts, TextBlob sentiment analysis, keyword-based entity matching and rule-based risk scoring. Its dashboard supports post filtering and inspection of score explanations.
 
@@ -151,19 +147,17 @@ A drug-safety signal prototype using simulated posts, TextBlob sentiment analysi
 
 [**VIEW PROJECT ↗**](https://github.com/Sudeshwar-TS/MedSignal-AI)
 
-<br>
+---
 
-![APPLIED ML](https://img.shields.io/badge/APPLIED%20ML-373067?style=flat-square)
+![07 / APPLIED ML](https://img.shields.io/badge/07%20%2F%20APPLIED%20ML-373067?style=flat-square)
 
-#### [Sustainova](https://github.com/Sudeshwar-TS/sustinova)
+### [Sustainova](https://github.com/Sudeshwar-TS/sustinova)
 
 An event planning app that estimates attendance with XGBoost and calculates food, parking and room requirements using rules. It also includes guest RSVP, QR check-in and organizer dashboards.
 
 `XGBoost` `FastAPI` `Next.js` `Supabase`
 
 [**VIEW PROJECT ↗**](https://github.com/Sudeshwar-TS/sustinova)
-
-
 <br>
 
 ---
