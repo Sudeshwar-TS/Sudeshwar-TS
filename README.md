@@ -1,16 +1,17 @@
 # Hi, I'm Sudeshwar T S
 
-**B.Tech Artificial Intelligence & Data Science (AI&DS)**  
+**Final-year B.Tech Artificial Intelligence & Data Science (AI&DS) student**  
 **AI / ML · NLP · Generative AI · Data Science & Analytics**
 
-I'm a final-year B.Tech Artificial Intelligence & Data Science student. I enjoy working with data and building applications that use machine learning, NLP and language models. My projects cover document search, emotion detection, sales prediction and equipment maintenance.
+I enjoy turning data and machine learning models into practical applications. My projects include RAG assistants, emotion detection, financial document analysis, sales prediction and predictive maintenance.
+
+**Seeking entry-level opportunities in AI/ML, NLP, Generative AI, Data Science and Data Analytics.**
 
 ## About Me
 
-- I work with data cleaning, feature engineering, regression and classification in my ML projects.
-- I use pretrained models and RAG to build chatbots and answer questions from documents.
-- I build dashboards to explore data and present predictions clearly.
-- I'm looking for entry-level opportunities in AI/ML, NLP, Generative AI, data science and data analytics.
+- I work on data cleaning, feature engineering and model comparison for prediction tasks.
+- I use pretrained language models and document retrieval in NLP and RAG applications.
+- I build dashboards and APIs to make project data and model outputs easier to explore.
 
 ## Tech Stack
 
@@ -20,7 +21,7 @@ I'm a final-year B.Tech Artificial Intelligence & Data Science student. I enjoy 
 | NLP / Generative AI | Hugging Face Transformers, Sentence Transformers, LangChain, Groq, OpenRouter, Hugging Face Diffusers |
 | Data Science & Analytics | pandas, NumPy, Plotly, Matplotlib, OpenPyXL |
 | Programming Languages | Python, SQL, JavaScript, TypeScript |
-| Databases | ChromaDB (vector database), PostgreSQL / Supabase, SQLite |
+| Databases / Vector Stores | ChromaDB (vector database), PostgreSQL / Supabase, SQLite |
 | Backend / APIs | FastAPI, Flask, Streamlit, SQLAlchemy |
 | Frontend | React, Next.js, Tailwind CSS, HTML, CSS |
 | Developer Tools | Git, GitHub, Docker, Docker Compose, Vite, uv |
@@ -29,31 +30,31 @@ I'm a final-year B.Tech Artificial Intelligence & Data Science student. I enjoy 
 
 ### TeleCom Insight AI · RAG customer support
 
-A chatbot for telecom support questions. It searches FAQ records, resolved tickets in SQLite and PDF guides using Sentence Transformers and ChromaDB, then passes the retrieved text to an LLM through LangChain and Groq.
+A telecom support chatbot that searches FAQs, resolved SQLite tickets and PDF guides. It uses Sentence Transformers and ChromaDB to retrieve relevant text, then generates answers through LangChain and Groq.
 
 **Tech:** Python | LangChain | ChromaDB | Sentence Transformers | Groq | Streamlit
 
 [View Repository](https://github.com/Sudeshwar-TS/TeleCom-Insight-AI)
 
-### Emotion-Aware Chatbot · NLP and conversational AI
+### Emotion-Aware Chatbot · NLP
 
-A chatbot that uses a pretrained DistilRoBERTa model to detect emotions in text. The detected emotion guides the response prompt sent through OpenRouter. It includes a React chat interface, emotion history and a keyword-based fallback.
+A chatbot that detects text emotions with a pretrained DistilRoBERTa model and uses the result to guide responses through OpenRouter. It includes emotion history and a keyword-based fallback.
 
 **Tech:** Python | Hugging Face Transformers | PyTorch | Flask | React | OpenRouter
 
 [View Repository](https://github.com/Sudeshwar-TS/Emotion-Aware-Chatbot)
 
-### MedSignal AI · Pharmacovigilance prototype
+### FinSight AI · Financial document analysis
 
-A prototype for exploring drug-safety signals in simulated posts from multiple source categories. It uses TextBlob for sentiment analysis, keyword matching to identify drug and symptom mentions, and rules to assign risk scores with explanations. A dashboard lets users filter posts and inspect flagged signals.
+A RAG project for answering questions about company financial documents. It retrieves company-specific passages for LLM summaries and includes chart creation and Excel reporting.
 
-**Tech:** Python | TextBlob | FastAPI | SQLAlchemy | SQLite | Next.js | Recharts
+**Tech:** Python | LangChain | ChromaDB | Sentence Transformers | Groq | OpenPyXL
 
-[View Repository](https://github.com/Sudeshwar-TS/MedSignal-AI)
+[View Repository](https://github.com/Sudeshwar-TS/FinSight-AI)
 
 ### Sales Demand Forecasting · Retail analytics
 
-An app for estimating units sold from retail data. The training code includes data cleaning, feature engineering and comparison of Linear Regression, Random Forest and XGBoost. A Streamlit dashboard shows sales charts and offers inventory suggestions based on fixed demand thresholds.
+A retail sales prediction app with preprocessing, feature engineering and training code that compares Linear Regression, Random Forest and XGBoost. Its dashboard shows sales charts and inventory suggestions based on fixed demand thresholds.
 
 **Tech:** Python | scikit-learn | XGBoost | pandas | Streamlit | Plotly
 
@@ -61,25 +62,25 @@ An app for estimating units sold from retail data. The training code includes da
 
 ### AI Predictive CMMS · Predictive maintenance
 
-A dashboard for viewing equipment readings, maintenance history and work orders stored in Supabase. It includes a Random Forest model for predicting maintenance needs and an LLM assistant that answers questions using the equipment data.
+A maintenance dashboard with sensor trends, equipment records and work orders stored in Supabase. It includes a Random Forest maintenance classifier and an LLM assistant that uses equipment data to answer questions.
 
 **Tech:** Python | scikit-learn | pandas | Streamlit | Plotly | Supabase
 
 [View Repository](https://github.com/Sudeshwar-TS/Enterprise-AI-Predictive-CMMS)
 
-### FinSight AI · Financial document analysis
+### MedSignal AI · Pharmacovigilance prototype
 
-A document analysis project for financial results, investor presentations and earnings transcripts. It retrieves text for a selected company, uses an LLM to summarise it, and includes code to create charts and Excel reports.
+A drug-safety signal prototype using simulated posts, TextBlob sentiment analysis, keyword-based entity matching and rule-based risk scoring. Its dashboard supports post filtering and inspection of score explanations.
 
-**Tech:** Python | LangChain | ChromaDB | Sentence Transformers | Groq | OpenPyXL
+**Tech:** Python | TextBlob | FastAPI | SQLAlchemy | SQLite | Next.js | Recharts
 
-[View Repository](https://github.com/Sudeshwar-TS/FinSight-AI)
+[View Repository](https://github.com/Sudeshwar-TS/MedSignal-AI)
 
 ### Sustainova · ML-assisted event planning
 
-An event planning app with an XGBoost model for estimating attendance. It uses rules to calculate food, parking and room requirements from those estimates. Guest RSVP, QR check-in and organizer screens connect the predictions to event planning.
+An event planning app that estimates attendance with XGBoost and calculates food, parking and room requirements using rules. It also includes guest RSVP, QR check-in and organizer dashboards.
 
-**Tech:** Python | FastAPI | Next.js | TypeScript | XGBoost | PostgreSQL / Supabase
+**Tech:** Python | XGBoost | FastAPI | Next.js | TypeScript | PostgreSQL / Supabase
 
 [View Repository](https://github.com/Sudeshwar-TS/sustinova)
 
